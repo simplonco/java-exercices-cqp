@@ -36,11 +36,7 @@ public class LifeSchool {
         infoJava.setStudents(students);
 
         System.out.println(infoJava);
-
-        Graduate compare = infoJava.compare(drake, solange);
-
         System.out.println(drake.equals(solange));
-
 
 
     }

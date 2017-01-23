@@ -40,12 +40,4 @@ public class School {
                 '}';
     }
 
-    public Graduate compare(Graduate graduate, Graduate graduateOther) {
-        if (graduate.getLevel() > graduateOther.getLevel()) {
-            return graduate;
-        }
-        return graduateOther;
-    }
-
-
 }
