@@ -2,6 +2,7 @@ package exercices.lifeschool;
 
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Graduate extends Student {
 
@@ -25,4 +26,16 @@ public class Graduate extends Student {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Graduate graduate = (Graduate) o;
+        return level == graduate.level;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(level);
+    }
 }

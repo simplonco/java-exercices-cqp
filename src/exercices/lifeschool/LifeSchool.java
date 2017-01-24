@@ -38,6 +38,5 @@ public class LifeSchool {
         System.out.println(infoJava);
         System.out.println(drake.equals(solange));
 
-
     }
 }
