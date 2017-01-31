@@ -11,7 +11,7 @@ public class Bike extends Vehicle{
 
     @Override
     public float getPriceWithTax() {
-        float tax = 1;
+        float tax = 1f;
         return this.price + tax;
     }
 }
